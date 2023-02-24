@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="grid-fluid">
+            <ul>
+                <li><strong>Middle Earth</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#">Clans</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#" role="button">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div>
+            <h1>Middle Earth</h1>
+        </div>
+        <form method="request type to be used" action="where data is processed">
+            <fieldset>
+                <legend>SIGN UP</legend>
+                <hr />
+                <br />
+                <label for="fname">
+                    Screen Name
+                    <input type="text" id="fname" name="name" placeholder="Name">
+                </label>
+                <label for="number">
+                    Number
+                    <input type="tel" id="number" name="number" placeholder="Number">
+                </label>
+                <label for="mail">
+                    Email
+                    <input type="email" id="mail" name="mail" placeholder="Email">
+                </label>
+                <label for="bio">
+                    Bio
+                    <textarea id="bio" name="bio" rows="6" placeholder="About"></textarea>
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Pick Race</legend>
+                <hr />
+                <br />
+                <label for="hobbit">
+                    <input type="radio" id="hobbit" name="race" value="hobbit">
+                    Hobbit
+                </label>
+                <label for="Orc">
+                    <input type="radio" id="Orc" name="race" value="Orc">
+                    Orc
+                </label>
+                <label for="Human">
+                    <input type="radio" id="Human" name="race" value="Human">
+                    Human
+                </label>
+                <label for="Elf">
+                    <input type="radio" id="Elf" name="race" value="Elf">
+                    Elf
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Interested Classes</legend>
+                <hr />
+                <br />
+                <label for="archer">
+                    <input type="checkbox" id="archer" name="classification" role="switch" value="archer">
+                    Archer
+                </label>
+                <label for="wizard">
+                    <input type="checkbox" id="wizard" name="classification" role="switch" value="wizard">
+                    Wizard
+                </label>
+                <label for="warrior">
+                    <input type="checkbox" id="warrior" name="classification" role="switch" value="warrior">
+                    Warrior
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Gender</legend>
+                <hr />
+                <br />
+                <label for="gender">
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option selected value="other">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Middle Earth is 42+ Age Requirement</legend>
+                <hr />
+                <br />
+                <label for="dob">
+                    Verify Age
+                    <input type="datetime-local" name="dob" id="dob" required />
+            </fieldset>
+
+            <button>Submit</button>
+        </form>
+    </main>
+
+    <footer class="grid">
+        <div>
+            <blockquote>
+                This isn't real my precious, it's just fun css for the trixy hobbits and orces!
+                <footer>- Smeagol The One True King</footer>
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                    Styles built with <a class="primary" href="https://picocss.com">picocss.com</a>
+            </blockquote>
+            <blockquote>
+                    Site created by <a class="primary" href="https://github.com/JWW127">JWW127</a>
+            </blockquote>
+        </div>
+
+    </footer>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
+
+
