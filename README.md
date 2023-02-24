@@ -11,6 +11,7 @@ I suppose the most important thing is you need a bundler if you're using as a np
 <br>
 I decided to use Parceljs.
 <h3> Setting up a vanilla js project </h3>
+
 ```
 $ mkdir project-name & cd project
 $ touch index.html style.css app.js .gitignore
@@ -18,14 +19,14 @@ $ touch index.html style.css app.js .gitignore
 $ npm install @picocss/pico
 $ npm install -D parcel
 ```
-Be sure to include js script in html or it wont work.
-<br/>
-Javascript file should import picocss <br/>
+<p>Be sure to include js script in html or it wont work.</p>
+<p>Javascript file should import picocss </p>
+
 ```javascript
 //app.js
 import '@picocss/pico'
 ```
-<br/>
-Now you can run Parcel and view in browser<br/>
+<p>Now you can run Parcel and view in browser</p>
+
 `$npx parcel`
 
